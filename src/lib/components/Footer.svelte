@@ -1,5 +1,9 @@
+<script>
+    let {course='ID512 Web Development', year=2026} =$props();
+</script>
+
 <footer>
-    <p>ID512 Web Development &copy; 1993</p>
+    <p>{course} &copy; {year}</p>
 </footer>
 
 <style>

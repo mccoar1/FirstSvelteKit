@@ -1,4 +1,13 @@
-<section>
+<script>
+    let {title = 'Example Card', description = 'Card description goes here.'} = $props();
+</script>
+
+<div class="details">
+    <h2>{title}</h2>
+    <p>{description}</p>
+</div>
+
+<!-- <section>
 <h2>Phill Connors</h2>
 <dl>
 <dt>Favourite song:</dt>
@@ -6,7 +15,7 @@
 <dt>Pet's name:</dt>
 <dd>Punxsutawney Phil</dd>
 </dl>
-</section>
+</section> -->
  
 <style>
     dl {
