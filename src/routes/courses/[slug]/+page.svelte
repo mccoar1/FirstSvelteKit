@@ -3,13 +3,13 @@
 
     const courses = {
         programming:{
-            title: 'programming fundamentals',
-            description: 'learn programming',
+            title: 'Programming Fundamentals',
+            description: 'Learn programming',
         },
 
         databases: {
-            title: 'database systems',
-            description: 'learn relational databases and SQL',
+            title: 'Database Systems',
+            description: 'Learn relational databases and SQL',
         }
     };
 
